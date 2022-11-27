@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Cálculo de total</title>
+</head>
+
+<body>
+    <div class="card">
+        <img src="assets/img/Guitar.png" alt="Guitarra">
+        <h1>Guitarra</h1>
+        <p>Precio: $<span class="precio">40000</span></p>
+        <select placeholder="Color">
+            <option value="white">Blanco</option>
+            <option value="red">Rojo</option>
+            <option value="green">Verde</option>
+            <option value="yellow">Amarillo</option>
+            <option value="black">Negro</option>
+            <option value="pink">Rosado</option>
+            <option value="purple">Púrpura</option>
+        </select>
+        <input class="cantidad" type="number" min="1" max="1000" placeholder="Cantidad">
+        <button>Calcular total</button>
+    </div>
+    <div class="totalBox">
+        <p>Total: $<span class="total">0</span></p>
+        <p>Cantidad: <span class="cantidadTotal">0</span></p>
+        <p>Color:</p>
+        <div class="colorFinal"></div>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
